@@ -141,56 +141,6 @@ index_content = header.format(title="Pokédex") + """
             <img src="/assets/Ui/pokeball.svg" alt="pokeball" />
             <h1>Pokedex</h1>
           </div>
-          <div class="search-wrapper">
-            <div class="search-wrap">
-              <img
-                src="/assets/Ui/search.svg"
-                alt="search icon"
-                class="search-icon"
-              />
-              <input
-                type="text"
-                class="search-input body3-fonts"
-                placeholder="Search"
-                id="search-input"
-              />
-              <img
-                src="./assets/Ui/cross.svg"
-                alt="cross icon"
-                class="search-close-icon"
-                id="search-close-icon"
-              />
-            </div>
-            <div class="sort-wrapper">
-              <div class="sort-wrap">
-                <img
-                  src="/assets/Ui/sorting.svg"
-                  alt="sorting"
-                  class="sort-icon"
-                  id="sort-icon"
-                />
-              </div>
-              <div class="filter-wrapper">
-                <p class="body2-fonts">Sort by:</p>
-                <div class="filter-wrap">
-                  <div>
-                    <input
-                      type="radio"
-                      id="number"
-                      name="filters"
-                      value="number"
-                      checked
-                    />
-                    <label for="number" class="body3-fonts">Number</label>
-                  </div>
-                  <div>
-                    <input type="radio" id="name" name="filters" value="name" />
-                    <label for="name" class="body3-fonts">Name</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </header>
       <section class="pokemon-list">
