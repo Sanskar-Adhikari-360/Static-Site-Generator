@@ -96,10 +96,3 @@ CREATE TABLE Pokemon (
 );
 ```
 
-## Deployment
-
-Since the output is plain HTML, you can deploy it anywhere:
-
-- **GitHub Pages** — push the `pokedex_pages/` folder to a `gh-pages` branch
-- **Netlify** — drag and drop the `pokedex_pages/` folder
-- **Vercel** — point it to the `pokedex_pages/` directory
